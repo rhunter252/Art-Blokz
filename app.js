@@ -1,17 +1,15 @@
 // Sticky Nav Reveal
-const nav = document.querySelector("nav");
+// const nav = document.querySelector("nav");
 
-let lastScroll = 0;
-
-window.addEventListener("scroll", () => {
-  const currentScroll = window.pageYOffset;
-  if (currentScroll >= 450) {
-    nav.classList.remove("hidden");
-  }
-  if (currentScroll <= 0) {
-    nav.classList.add("hidden");
-  }
-});
+// window.addEventListener("scroll", () => {
+//   const currentScroll = window.pageYOffset;
+//   if (currentScroll >= 450) {
+//     nav.classList.remove("hidden");
+//   }
+//   if (currentScroll <= 0) {
+//     nav.classList.add("hidden");
+//   }
+// });
 
 // hamburger menu
 const menu = document.querySelector(".menu");
